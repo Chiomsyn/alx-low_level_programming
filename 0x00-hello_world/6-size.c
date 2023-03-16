@@ -1,10 +1,10 @@
 #include <stdio.h>
-/*
+/**
  *
- * main - print the sizes of the given datatypes
+ * main - Print the sizes of the given datatypes
  *
- * Return: zero
-*/
+ * Return: Zero
+ */
 int main(void)
 {
 	printf("Size of a char: %d byte(s)\n", sizeof(char));
