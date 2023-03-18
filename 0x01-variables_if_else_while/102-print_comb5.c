@@ -21,7 +21,7 @@ while (e < 58)
 			g = 48;
 			while (g < 58)
 			{
-				if (g > i && f >= i && g != i && f >= e)
+				if (g > i && g != i && f >= e)
 				{
 					putchar(e);
 					putchar(i);
