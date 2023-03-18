@@ -3,45 +3,43 @@
 /**
  * main - Prints numbers between 00 to 99.
  *
- * Return: Always 0 (Success)
+ * Return: Zero
  */
 int main(void)
 {
-int i, e, g, h, op1, op2;
+int i, e, g, f;
 
-i = e = g = h = 48;
-while (h < 58)
+i = e = g = f = 48;
+while (e < 58)
 {
-	g = 48;
-	while (g < 58)
+	i = 48;
+	while (i < 58)
 	{
-		e = 48;
-		while (e < 58)
+		f = 48;
+		while (f < 58)
 		{
-			i = 48;
-			while (i < 58)
+			g = 48;
+			while (g < 58)
 			{
-				op1 = (h * 10) + g;
-				op2 = (e * 10) + i;
-				if (op1 < op2)
+				if (g > i && f >= i && g != i && f >= e)
 				{
-					putchar(h);
-					putchar(g);
-					putchar(' ');
 					putchar(e);
 					putchar(i);
-					if (h == 57 && g == 56 && e == 57 && i == 57)
+					putchar(' ');
+					putchar(f);
+					putchar(g);
+					if (f == 57 && i == 56 && e == 57 && g == 57)
 						break;
 					putchar(',');
 					putchar(' ');
 				}
-				i++;
+				g++;
 			}
-			e++;
+			f++;
 		}
-		g++;
+		i++;
 	}
-	h++;
+	e++;
 }
 putchar('\n');
 return (0);
