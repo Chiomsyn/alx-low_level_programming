@@ -16,7 +16,7 @@ int  _abs(int n)
 	else
 	{
 		int cal = n * (-1);
-		
+
 		return (cal);
 	}
 }
