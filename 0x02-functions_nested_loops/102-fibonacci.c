@@ -20,6 +20,7 @@ int main(void)
 				prev = nxt;
 				nxt = sum;
 			}
+			printf(", ");
 		}
 		else if (i == 1)
 		{
@@ -31,7 +32,7 @@ int main(void)
 
 		}
 		sum = prev + nxt;
-		printf("%ld, ", sum);
+		printf("%ld", sum);
 	}
 	printf("\n");
 	return (0);
