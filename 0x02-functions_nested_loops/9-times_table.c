@@ -15,7 +15,7 @@ void times_table(void)
 		_putchar(48);
 		for (x = 1; x < 10; x++)
 		{
-			mul = x + w;
+			mul = x * w;
 			_putchar(44);
 			_putchar(32);
 			if (mul < 10)
