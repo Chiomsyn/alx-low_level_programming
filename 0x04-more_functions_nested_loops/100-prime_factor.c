@@ -11,7 +11,7 @@ int main(void)
 	int i;
 
 	i = 2;
-	x = 1231952;
+	x = 612852475143;
 
 	while (i)
 	{
