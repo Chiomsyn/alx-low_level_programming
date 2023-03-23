@@ -25,7 +25,7 @@ int main(void)
 		}
 		if (x == 1)
 		{
-			printf("%d", i);
+			printf("%d\n", i);
 			break;
 		}
 	}
