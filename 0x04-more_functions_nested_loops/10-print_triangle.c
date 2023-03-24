@@ -21,7 +21,7 @@ void print_triangle(int size)
 			{
 				if (j < k)
 				{
-					putchar(' ');
+					_putchar(' ');
 				}
 				else
 				{
