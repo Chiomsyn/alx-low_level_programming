@@ -1,4 +1,4 @@
-#includer "main.h"
+#include "main.h"
 /**
  * _puts - prints a string, followed by a new line.
  * @str: input string.
@@ -10,7 +10,7 @@ void _puts(char *str)
 
 	for (count = 0; str[count] != '\0'; count++)
 	{
-		_putchar(str[i]);
+		_putchar(str[count]);
 	}
 	_putchar(10);
 }
