@@ -1,2 +1,1 @@
-# alx-low_level_programming
-My Project as an ALX software Engineering student
+#alx-low_level_programming
