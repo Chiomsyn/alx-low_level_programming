@@ -8,7 +8,7 @@
 char *leet(char *s)
 {
 	int count = 0, i;
-	int low_alphs[] = {97, 101, 111, 116, 108};
+	int low_alphas[] = {97, 101, 111, 116, 108};
 	int upp_alphas[] = {65, 69, 79, 84, 76};
 	int nums[] = {52, 51, 48, 55, 49};
 
