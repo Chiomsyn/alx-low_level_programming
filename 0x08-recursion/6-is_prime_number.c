@@ -1,33 +1,35 @@
 #include "main.h"
+
+
 /**
- * power_operation - returns the natural square root of a number.
+ * is_prime - detects if an input number is a prime number.
  * @n: input number.
  * @c: iterator.
- * Return: square root or -1.
+ * Return: 1 if n is a prime number. 0 if n is not a prime number.
  */
-int power_operation(int n, int c)
+int is_prime(unsigned int n, unsigned int c)
 {
-	if (c % (n / c) == 0)
+	if (n % c == 0)
 	{
-		if (c * (n / c) == n)
-			return (c);
+		if (n == c)
+			return (1);
 		else
-			return (-1);
+			return (0);
 	}
-	return (0 + power_operation(n, c + 1));
+	return (0 + is_prime(n, c + 1));
 }
 /**
- * _sqrt_recursion - returns the natural square root of a number.
+ * is_prime_number - detects if an input number is a prime number.
  * @n: input number.
- * Return: natural square root.
+ * Return: 1 if n is a prime number. 0 if n is not a prime number.
  */
-int _sqrt_recursion(int n)
+int is_prime_number(int n)
 {
-	if (n < 0)
-		return (-1);
 	if (n == 0)
 		return (0);
+	if (n < 0)
+		return (0);
 	if (n == 1)
-		return (1);
-	return (power_operation(n, 2));
+		return (0);
+	return (is_prime(n, 2));
 }
