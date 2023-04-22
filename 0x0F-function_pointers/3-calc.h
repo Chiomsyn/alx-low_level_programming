@@ -2,6 +2,7 @@
 #define _CALC_
 
 #include  <stdlib.h>
+#include <stdio.h>
 
 /**
  * struct op - Struct op
