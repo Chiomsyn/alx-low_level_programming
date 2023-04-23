@@ -10,5 +10,5 @@ All of the following folders are projects done during the studies
 <td><b>Project Name</b></td>
 </tr>
 <tr><td>1.</td>
-<td><a href="https://www.google.com">0x00-hello_world</a></td></tr>
+<td><a href="https://github.com/Chiomsyn/alx-low_level_programming/tree/main/0x00-hello_world">0x00-hello_world</a></td></tr>
 </table>
